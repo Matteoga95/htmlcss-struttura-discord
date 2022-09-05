@@ -17,14 +17,19 @@ header {
     display: grid;
 }
 
+.header_style {
+    background-color: #daa520;
+    margin: 20px 0;
+}
+
 footer {
     background-color: #23272a;
 }
 
 
-
 [class^="col-"] {
     padding: 0 1rem;
+
 }
 
 
@@ -35,36 +40,22 @@ footer {
 
 }
 
-.banner_content {
+.container-low {
     width: 50%;
     max-width: 1200px;
     margin: 0 auto;
-   
-}
 
-.banner_footer {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0px auto;
-    padding: 20px 0;
-}
-
-.row_header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px auto;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   
+
 
 }
 
-.space_interlinea{
+.space_interlinea {
     padding: 40px 0;
 }
 
@@ -81,6 +72,7 @@ footer {
 .col-3 {
     width: calc((100% / 12) * 3);
 
+
 }
 
 .col-4 {
@@ -95,6 +87,8 @@ footer {
 
 .col-6 {
     width: calc((100% / 12) * 6);
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -137,35 +131,22 @@ span {
     background-color: darkblue;
 }
 
-.alt_500{
+.alt_500 {
     height: 500px;
 }
 
-.wid_80{
+.wid_80 {
     width: 80%;
+}
+
+.txt_rx {
+    text-align: right;
+
 }
 
 
 /* debug  */
 
-.row_header {
-    background-color: #daa520;
-
-
-}
-
-.row_ft {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-
-
-}
-
-.ft_foot {
-    height: 100px;
-}
 
 .banner_content {
 
@@ -182,25 +163,25 @@ span {
 .col-5 {
     background-color: #ffc0cb;
     height: 400px;
-   
+
 }
 
 .col-4 {
     background-color: #f08080;
     height: 400px;
-   
+
 }
 
 .col-2 {
     background-color: #20b2aa;
     height: 400px;
-   
+
 }
 
 .col-7 {
     background-color: #1e90ff;
     height: 400px;
-   
+
 
 }
 
