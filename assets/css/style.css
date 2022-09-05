@@ -6,6 +6,11 @@
 
 
 
+span{
+padding: 5px;
+}
+
+
 
 [class^="col-"]{
     padding: 0 1rem;
@@ -15,10 +20,31 @@
 .container{
     width: 80%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
+    
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.col-3{
+    width: calc((100% / 12) * 3);
+   
+
+}
+
+.col-6{
+    width: calc((100% / 12) * 6);
+
+}
+
+/* debug  */
+
+.row{
+    background-color: burlywood;
+ 
 }
