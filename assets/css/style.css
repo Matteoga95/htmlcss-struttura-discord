@@ -144,10 +144,17 @@ span {
 
 .col-12 {
     width: calc((100% / 12) * 12);
+    display: flex;
+    justify-content: space-between;
 
 }
 
-
+.bt_foot{
+    background-color: #ffb6c1;
+    padding:5px ;
+    max-height: 30px;
+    
+}
 
 /* debug  */
 
@@ -193,4 +200,7 @@ span {
     width: calc((100% / 12) * 12);
     height: 100px;
     background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
