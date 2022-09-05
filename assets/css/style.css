@@ -27,12 +27,52 @@ footer {
 }
 
 
+
+  /* utility */
+span {
+    padding: 5px;
+}
+
+.dotted_border {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+
+/* classe per l'inserimento dello sfondo a onda grigio */
+.bg_grey {
+
+
+    background-color: #d3d3d3;
+}
+
+.bg_blu {
+
+
+    background-color: darkblue;
+}
+
+.alt_500 {
+    height: 500px;
+}
+
+.wid_80 {
+    width: 80%;
+}
+
+.txt_rx {
+    text-align: right;
+
+}
+
+
 [class^="col-"] {
     padding: 0 1rem;
 
 }
 
 
+/* contenitori */
 .container {
     width: 80%;
     max-width: 1200px;
@@ -107,42 +147,6 @@ footer {
 
 }
 
-/* utility */
-span {
-    padding: 5px;
-}
-
-.dotted_border {
-    border-width: 1px;
-    border-style: dashed;
-    border-color: black;
-}
-
-/* classe per l'inserimento dello sfondo a onda grigio */
-.bg_grey {
-
-
-    background-color: #d3d3d3;
-}
-
-.bg_blu {
-
-
-    background-color: darkblue;
-}
-
-.alt_500 {
-    height: 500px;
-}
-
-.wid_80 {
-    width: 80%;
-}
-
-.txt_rx {
-    text-align: right;
-
-}
 
 
 /* debug  */
